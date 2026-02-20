@@ -21,7 +21,7 @@ export function Atmosphere() {
     return (
         <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-black">
             {/* Film Grain / Noise Overlay */}
-            <div className="absolute inset-0 bg-noise animate-noise opacity-30 mix-blend-screen" />
+            <div className="absolute inset-0 bg-noise opacity-30 mix-blend-screen" />
 
             {/* Subdued ambient radial gradient */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,transparent_70%)] opacity-50 blur-[100px]" />
