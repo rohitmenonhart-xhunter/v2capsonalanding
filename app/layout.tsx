@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'Your Mac\'s AI Voice Assistant. Speak directly into any app, instantly.',
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: '/logocapsona.png',
       },
     ],
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: 'Your Mac\'s AI Voice Assistant. Speak directly into any app, instantly.',
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: '/logocapsona.png',
       },
     ],
   },
