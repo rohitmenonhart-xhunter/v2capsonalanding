@@ -16,6 +16,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -25,6 +26,19 @@ const config: Config = {
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+        cyan: {
+          DEFAULT: '#00d9ff',
+          50: '#e6fbff',
+          100: '#b3f3ff',
+          200: '#80ebff',
+          300: '#4de3ff',
+          400: '#1adbff',
+          500: '#00d9ff',
+          600: '#00aed1',
+          700: '#0083a3',
+          800: '#005875',
+          900: '#002d47',
+        },
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
@@ -88,7 +102,7 @@ const config: Config = {
           '70%': { transform: 'translate(0,15%)' },
           '80%': { transform: 'translate(3%,35%)' },
           '90%': { transform: 'translate(-10%,10%)' },
-        }
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',

@@ -1,30 +1,19 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Capsona | The Deep Signal',
-  description: 'Your Mac\'s AI Voice Assistant. Speak directly into any app, instantly.',
+  title: 'Capsona | CapsoClaw — Your AI That Never Sleeps',
+  description: 'Meet CapsoClaw by Capsona. Your personal AI super agent — plans your day, tackles tasks, follows up, and never sleeps. Everyone deserves a Jarvis.',
   openGraph: {
-    title: 'Capsona | The Deep Signal',
-    description: 'Your Mac\'s AI Voice Assistant. Speak directly into any app, instantly.',
-    images: [
-      {
-        url: '/logocapsona.png',
-      },
-    ],
+    title: 'Capsona | CapsoClaw — Your AI That Never Sleeps',
+    description: 'Meet CapsoClaw by Capsona. Your personal AI super agent — plans your day, tackles tasks, follows up, and never sleeps.',
+    images: [{ url: '/logocapsona.png' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Capsona | The Deep Signal',
-    description: 'Your Mac\'s AI Voice Assistant. Speak directly into any app, instantly.',
-    images: [
-      {
-        url: '/logocapsona.png',
-      },
-    ],
+    title: 'Capsona | CapsoClaw — Your AI That Never Sleeps',
+    description: 'Meet CapsoClaw by Capsona. Your personal AI super agent — plans your day, tackles tasks, follows up, and never sleeps.',
+    images: [{ url: '/logocapsona.png' }],
   },
 };
 
@@ -35,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
